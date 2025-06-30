@@ -1,0 +1,1 @@
+# This repo contains some implementation examples of Client Side Field Level Encryption making use of Confluent Cloud, Schema Registry and different Cloud Provider's Key Management Services to store encryption keys. 
