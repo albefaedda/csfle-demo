@@ -1,0 +1,28 @@
+{
+  "name": "Customer",
+  "namespace": "com.faeddalberto.csfle.model",
+  "type": "record",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "customer_name",
+      "type": "string"
+    },
+    {
+      "name": "customer_email",
+      "type": "string"
+    },
+    {
+      "name": "customer_address",
+      "type": "string"
+    },
+    {
+      "name": "card_number",
+      "type": "string",
+      "confluent:tags": ["PCI"]
+    }
+  ]
+}
