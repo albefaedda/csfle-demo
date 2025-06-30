@@ -1,0 +1,10 @@
+env_display_name = "CSFLE-ENV-GCP"
+cluster_display_name = "csfle-cluster"
+cluster_availability = "SINGLE_ZONE"
+cluster_provider = "GCP"
+cluster_region = "europe-west2"
+governance_package = "ADVANCED"
+
+topic_name = "customers"
+dlq = "dlq.customers"
+consumer_group_name = "customers-management-app"
